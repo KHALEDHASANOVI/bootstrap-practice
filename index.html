@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bootstrap Practice</h1>
+      <div class="one">
+        <p>one</p>
+        <div class="row">
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="col">col</div>
+        </div>
+        <div class="row">
+          <div class="col-8">col-8</div>
+          <div class="col-4">col-4</div>
+        </div>
+      </div>
+      <div class="two">
+        <p>two</p>
+        <div class="row justify-content-start">
+          <div class="col-4">One of two columns</div>
+          <div class="col-4">One of two columns</div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4">One of two columns</div>
+          <div class="col-4">One of two columns</div>
+        </div>
+        <div class="row justify-content-end">
+          <div class="col-4">One of two columns</div>
+          <div class="col-4">One of two columns</div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-4">One of two columns</div>
+          <div class="col-4">One of two columns</div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-4">One of two columns</div>
+          <div class="col-4">One of two columns</div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-4">One of two columns</div>
+          <div class="col-4">One of two columns</div>
+        </div>
+      </div>
+      <div class="three">
+        <p>three</p>
+        <div class="row row-cols-2 row-cols-lg-5 g-4 g-lg-5">
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+        </div>
+      </div>
+      <div class="four">
+        <p>four</p>
+        <h1 class="display-1">Display 1</h1>
+      </div>
+      <div class="five">
+        <p>five</p>
+        <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+        <p>
+          <del>This line of text is meant to be treated as deleted text.</del>
+        </p>
+        <p>
+          <s>This line of text is meant to be treated as no longer accurate.</s>
+        </p>
+        <p>
+          <ins
+            >This line of text is meant to be treated as an addition to the
+            document.</ins
+          >
+        </p>
+        <p><u>This line of text will render as underlined.</u></p>
+        <p>
+          <small>This line of text is meant to be treated as fine print.</small>
+        </p>
+        <p><strong>This line rendered as bold text.</strong></p>
+        <p><em>This line rendered as italicized text.</em></p>
+      </div>
+      <div class="six">
+        <p>six</p>
+        <p><abbr title="attribute">attr</abbr></p>
+        <p>
+          <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
+        </p>
+      </div>
+      <div class="seven">
+        <p>seven</p>
+        <figure class="text-center">
+          <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="eight">
+        <p>eight</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="nine">
+        <p>nine</p>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="ten">
+        <p>ten</p>
+        <div class="mb-3">
+          <label for="formFile" class="form-label"
+            >Default file input example</label
+          >
+          <input class="form-control" type="file" id="formFile" />
+        </div>
+        <div class="mb-3">
+          <label for="formFileMultiple" class="form-label"
+            >Multiple files input example</label
+          >
+          <input
+            class="form-control"
+            type="file"
+            id="formFileMultiple"
+            multiple
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formFileDisabled" class="form-label"
+            >Disabled file input example</label
+          >
+          <input
+            class="form-control"
+            type="file"
+            id="formFileDisabled"
+            disabled
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label"
+            >Small file input example</label
+          >
+          <input
+            class="form-control form-control-sm"
+            id="formFileSm"
+            type="file"
+          />
+        </div>
+        <div>
+          <label for="formFileLg" class="form-label"
+            >Large file input example</label
+          >
+          <input
+            class="form-control form-control-lg"
+            id="formFileLg"
+            type="file"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Optional JavaScript end here -->
+  </body>
+</html>

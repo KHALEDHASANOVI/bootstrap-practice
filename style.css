@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+div[class^="col"] {
+  padding: 10px;
+  border: 1px solid red;
+}
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+  margin-top: 30px;
+}
